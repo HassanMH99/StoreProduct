@@ -1,0 +1,64 @@
+.CardProduct{
+    border: 1px solid black;
+    width: 20%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    cursor: pointer;
+    background: linear-gradient(to bottom, #f1f1f1, #e1e1e1, #4caf50, #2e7d32);
+}
+.CardProduct-ListOfit{
+    padding-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center;
+    justify-items: center;
+    gap: 3em;
+    padding-bottom: 1rem;
+  
+
+}
+.NameProduct{
+    font-size: medium;
+    text-align: center;
+    background: linear-gradient(to bottom, #4caf50, #2e7d32);
+    color: black;
+}
+.NameProduct:hover{
+    background-color: #3e8e41;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.descrptionProduct{
+    font-size: x-small;
+    border: 1px darkgreen solid;
+    width: 100%;
+   
+}
+.ImageProduct{
+    width: 70%;
+    height: 50%;
+    display: flex;
+    text-align: center;
+    border-radius: 50%;
+   
+}
+.PriceProduct{
+    border: 1px solid;
+    border-color: darkgreen;
+    width: 100%;
+    text-align: center;
+}
+.Link_CardProduct{
+    text-decoration: none;
+    width: 100%;
+}
+.Link_CardProduct:hover{
+    color: red;
+
+}

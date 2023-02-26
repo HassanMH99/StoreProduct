@@ -1,0 +1,149 @@
+.ProductDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #f1f1f1, #e1e1e1); 
+}
+.Nav-ProductDetails{
+width: 100%;
+height: 10%;
+background: linear-gradient(to bottom, #4caf50, #2e7d32);
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+.Button-ProductDetails{
+    width: 10%;
+    height: 50%; 
+    max-width: 200px;
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+    padding: 0 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition-duration: 0.3s;
+
+}
+
+.Button-ProductDetails:hover{
+    background-color: #3e8e41;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+@media (max-width: 768px) {
+    .Button-ProductDetails {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Button-ProductDetails {
+      width: 80%;
+      font-size: 16px;
+
+    }
+    .Nav-ProductDetails>h1{
+        font-size: smaller;
+    }
+  }
+
+.ProductDetails_p{
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
+  }
+  .ProductDetails_img{
+    width: 30%;
+    border-radius: 30%;
+    
+  }
+  .Button-Back{
+    height: 100%;
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+    padding: 0 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition-duration: 0.3s;
+   
+  }
+  .Button-Back:hover{
+    background-color: #3e8e41;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  .Link_ProductDetails{
+    text-decoration: none;
+  }
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .popup p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .popup button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .popup button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .popup button:last-child {
+    background-color: #f44336;
+  }
+  
+  .popup button:last-child:hover {
+    background-color: #c62828;
+  }
+  
