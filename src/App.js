@@ -6,6 +6,7 @@ import { ProductPage } from './Components/productPage/ProductPage';
 import { ProductDetail } from './Components/productDetails/ProductDetail';
 import { EditProduct } from './Components/editProduct/EditProduct';
 import { AddProduct } from './Components/addProduct/AddProduct';
+import { ErrorPage } from './Components/errorpage/ErrorPage';
 function App() {
   const router = createBrowserRouter([
     {
@@ -30,6 +31,9 @@ function App() {
     },{
       path:"/add",
       element:<AddProduct/>
+    },{
+      path:"*",
+      element:<ErrorPage/>
     }
 
   ])
